@@ -1,0 +1,34 @@
+<div class="cardPosition">
+  <button class="addButton" mat-raised-button color="primary" (click)="adicionarUsuarios()">Adicionar Usuário</button>
+  <div class="headTable">
+    <mat-checkbox color="primary">User Details</mat-checkbox>
+    <div class="headRole">ROLE</div>
+    <div class="headDesc">DEPARTMENT</div>
+    <div class="headDesc">SUBMIT TO</div>
+  </div>
+  <table *ngIf="addUsers">
+  <tr *ngFor="let users of listaUsers"  class="cardSize">
+    <th>
+      <mat-checkbox color="primary"></mat-checkbox>
+    </th>
+    <th>
+      <div class="circle">
+        <img class="usersPhoto" src="{{users.foto}}" alt="{{users.nome}}">
+      </div>
+    </th>
+    <th class="usersInfo">      
+        <div class="cardName">{{users.nome}}</div>
+        <div class="cardLine"><mat-icon>mail</mat-icon><div class="cardEmail">{{users.email}}</div></div>
+        <div class="cardLine"><mat-icon>computer</mat-icon><div class="cardWeb">{{users.contato}}</div></div>
+        <div class="cardAdd">Added on {{users.data}}</div>      
+    </th>
+    <th>
+      <button mat-raised-button color="primary">Editar</button>
+    </th>
+    <th>
+      <button mat-raised-button class="buttonColor">Excluir</button>
+    </th>
+  </tr>
+  </table>
+</div>
+

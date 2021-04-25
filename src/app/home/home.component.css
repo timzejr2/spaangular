@@ -1,0 +1,143 @@
+.headTable {
+  position: relative;
+  display: block;
+  height: 20px;
+  padding: 9px 9px 9px 1px;
+  background-color: gainsboro;
+  border: grey solid 2px;
+  border-left: 0;
+  border-right: 0;
+}
+
+.headRole {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  margin-left: 465px;
+}
+
+.headDesc {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  margin-left: 70px;
+}
+
+.addButton {
+  left: 80%;
+  color: white;
+}
+
+.cardPosition { 
+  position: absolute;
+  left: 50%;
+  margin-left: -500px; 
+  width: 1013.64px;
+}
+
+.cardSize {
+  position: relative;
+  height: 90px;
+  margin-top: 5px;
+  justify-content: center;
+  background-color: white;
+  border-bottom: 2px solid #eeeeee;
+}
+
+table {
+  width: 100%;
+  border-collapse:collapse;
+}
+
+mat-checkbox {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.circle {
+  width: 6rem;
+  height: 6rem;
+  align-self: center;
+  border-radius: 50%;
+  margin: 1px;
+  overflow: hidden;
+  position: relative;
+}
+
+.usersPhoto {
+  width: initial;
+  height: inherit;
+  max-width: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.usersInfo {
+  position: relative;
+  display: inline-block;
+  flex-direction: row; 
+  width: 400px;
+  margin-left: 15px; 
+  margin-top: 10px;
+  text-align: left;
+}
+
+.mat-icon {
+  align-items: baseline;
+
+}
+
+.cardName {
+  font-size: 16px;
+  font-weight: bolder;
+  color: blue;
+  margin-bottom: 0px;
+}
+
+.cardEmail {
+  align-items: center;
+  position: relative;
+  display: inline-block;
+  flex-direction: row;
+  bottom: 8px;
+}
+
+.cardWeb {
+  color: blue;
+  position: relative;
+  display: inline-block;
+  flex-direction: row;
+  bottom: 8px;
+}
+
+.cardAdd {
+  font-size: 10px;
+  padding-top: 10px;
+  color: gray;
+}
+
+.buttonPosition {
+  position: relative;
+  display: inline;
+  flex-direction: row;
+  width: 200px;
+  bottom: 30px;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  flex-direction: row;
+  margin: 5px;
+  width: 200px;
+}
+
+.buttonColor {
+  background-color: firebrick;
+  color: white;
+}
+
+.mat-checkbox-checked.mat-accent {
+  color: blue;
+}

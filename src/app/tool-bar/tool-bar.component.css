@@ -1,0 +1,9 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.logotool {
+  margin-top: 10px;
+  height: 50px;
+  width: 110px;
+}

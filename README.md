@@ -1,5 +1,7 @@
 # Spaangular
 
+Projeto desenvolvido durante o bootcamp Avanade Angular Developer
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
 
 ## Development server
